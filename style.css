@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    width: 93%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img{
+    width: 100px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    margin-left: 25px;
+    align-items: flex-start;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.reg{
+    padding: 8px 13px;
+    border-radius: 13px;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    
+}
+
+.arrow{
+    margin-left: 8px;
+}
+
+.main{
+    width: 85%;
+    margin-top: 25px;
+    min-height: 75vh;
+    display: flex;
+    flex-flow: row;
+}
+
+.left-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 110px;
+
+}
+
+.right-main{
+    width: 50%;
+    background-image: url(../image-hero-desktop.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.sponsors{
+    width: 60%;
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor-img{
+    width: 60px;
+    object-fit: contain;
+
+}
+
+.learn-button{
+    margin-top: 50px;
+    width: 100px;
+    padding: 10px 13px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-reg{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+
+
+
+
